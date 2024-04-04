@@ -5,7 +5,7 @@
 
 # TODO
 
-2.Try other Indexes like cosine based or based on exact cosine matching for text
+2. Try other Indexes to check latency when done with everything else 
 
 3. OCR for DR--185549702_INTRO
    
@@ -15,4 +15,6 @@
    
 9. OOP code organization
     
-11. Documentation 
+11. Documentation
+
+12. Try other embedders like splade & Contriever
