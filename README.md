@@ -9,7 +9,7 @@
 
 3. OCR for DR--185549702_INTRO
    
-~~5. Better chunking for paras with words like following/below in the last sentence ~~
+~~5. Better chunking for paras with words like following/below in the last sentence~~
    
 7. Tabular format -> One table and its header is one chunk? Or should be do this row-wise?
    
