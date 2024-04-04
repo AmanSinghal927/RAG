@@ -2,22 +2,12 @@ import pandas as pd
 from src.rechunker import Rechunker
 from src.encoder.sentence_transformer import Encoder
 from src.faiss.flat_idx import FlatIdx
-from utils.utils import flatten_list
+from utils.utils import flatten_list, logger
 from src.eval import Eval
 import os
-import datetime
 import json
 
-def logger(correct, incorrect):
-    logging_path = r"C:\Users\J C SINGLA\Downloads\External - take_home_challenge_(withJSONs)\take_home_challenge_(withJSONs)\logs"
-    timestamp = datetime.datetime.now().strftime("%Y-%m-%d_%H-%M-%S")
-    new_folder_path = os.path.join('logs', f'log_{timestamp}')
-    os.makedirs(new_folder_path, exist_ok=True)
-    with open(os.path.join(new_folder_path, "correct.json"), 'w') as file:
-        json.dump(correct, file, indent=4)
 
-    with open(os.path.join(new_folder_path, "incorrect.json"), 'w') as file:
-        json.dump(incorrect, file, indent=4)
 
 if __name__=="__main__":
     ground_truth_path = r"C:\Users\J C SINGLA\Downloads\External - take_home_challenge_(withJSONs)\take_home_challenge_(withJSONs)\document_questions.xlsx"

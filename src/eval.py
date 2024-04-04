@@ -11,7 +11,7 @@ class Eval:
             if isinstance(test_labels[i], float):
                 # handle case for when answer is not present in the pdf
                 continue
-            for j in range(min(self.k,len(ret_context))):
+            for j in range(min(self.k,len(ret_context[0]))):
                 if fuzz.partial_ratio(test_labels[i], ret_context[i][j])>=90 and len(ret_context[i][j])>=len(test_labels[i])*0.95:
                     # print ("test_labels:", test_labels[i], "\n", "ret_context:", ret_context[i][j])
                     ctr += 1
