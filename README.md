@@ -3,8 +3,13 @@
 
 # TODO
 2.Try other Indexes like cosine based or based on exact cosine matching for text
+
 3. OCR for DR--185549702_INTRO
-4. Better chunking for paras with words like following/below in the last sentence
-5. Tabular format -> One table and its header is one chunk? Or should be do this row-wise?
-6. OOP code organization
-7. Documentation 
+   
+5. Better chunking for paras with words like following/below in the last sentence
+   
+7. Tabular format -> One table and its header is one chunk? Or should be do this row-wise?
+   
+9. OOP code organization
+    
+11. Documentation 
