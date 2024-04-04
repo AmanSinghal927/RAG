@@ -1,7 +1,7 @@
 # DONE
 1. Added basic implementation.ipynb - Recall@4 with sentence transformer and IndexFlatL2 is 28.57% | considering partial fuzzy match only if retrieved context is longer 0.95 times ground truth
 2. Added Chunking - Recall@4 with sentence transformer and IndexFlatL2 is 42.85% | considering partial fuzzy match only if retrieved context is longer 0.95 times ground truth
-
+3. Chunking + Dragon - 7%, direct dense retrieval may not be the answer
 
 # TODO
 
@@ -17,4 +17,4 @@
     
 11. Documentation
 
-12. Try other embedders like splade & Contriever
+12. Try other embedders like splade & dragon
