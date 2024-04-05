@@ -24,13 +24,15 @@ class FlatIdx:
     def faiss_tfidf_inference(self, vectorizer, indexed_data, query_data, k=4):
         if isinstance(query_data, list):
             ret_context = []
+            sim_scores = []
             for query in query_data:
                 xq = vectorizer.transform([query])
                 xq = xq.toarray().astype('float32')
                 D, I = self.index.search(xq, k)
                 retrieved_items = [indexed_data[i] for i in list(I[0])]
+                sim_scores.append(D)
                 ret_context.append(retrieved_items)
-            return ret_context   
+            return ret_context, sim_scores
 
     def faiss_dragon_inference(self, model, tokenizer, indexed_data, query_data, k=4):
         if isinstance(query_data, list):
