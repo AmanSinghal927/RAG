@@ -17,7 +17,7 @@
    
 ~~5. Better chunking for paras with words like following/below in the last sentence~~
    
-7. Tabular format -> One table and its header is one chunk? Or should be do this row-wise?
+7. ~~Tabular format -> One table and its header is one chunk? Or should be do this row-wise?~~
    
 9. ~~OOP code organization~~
     
