@@ -1,3 +1,5 @@
+## Folder structure
+
 --pdfs: raw pdfs
 
 --raw_text: text extracted by adobe, utilized for table extraction
