@@ -27,4 +27,7 @@
 13. ~~No match threshold~~
     
 15. Multi-answer query evaluation: Maybe MRR would take care of this as well
+
+# Improvements
+- Logical table storing e.g. table_name.col_name.row_name = cell_value
     
