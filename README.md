@@ -5,6 +5,7 @@
 4. Chunking + TF-IDF - vocab size is 4.5K - 64.28%; Insight: Dense retrievers are not good at exact word matches
   - Tried variations with k=15 and cleaning (lowercase, no stopwords, stemming lemmatization); also varaince threshold -> what works is (lowercase, no stopwords)
   - error analysis: 3 no answers, 1 segmentation error, 1 multiple answers
+5. Chunking + TF-IDF + Thresholding for no-answer 78.57% @ k=15
   - threshold for no answer: [1.5917805, 1.6717079, 1.2556686] median value in tf-idf 1.5917805
 
 # TODO
