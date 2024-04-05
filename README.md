@@ -10,7 +10,9 @@
 6. Including table queries and data from raw_text - 73.9% recall@10
 - MRR is 0.46 (MRR criteria, partial fuzzy matches allowed only when len(pred)>=0.95*len(ground_truth)
 
-7. 2-stage system with reranking based on dragon, MRR is 0.65
+7. 2-stage system with reranking based on dragon, MRR is 0.65, 73.9% recall@10
+   
+9. Along with PDF with no labels, MRR is 0.5, 70.0% recall@10
 
 # TODO
 
