@@ -34,4 +34,7 @@
 
 # Improvements
 - Logical table storing e.g. table_name.col_name.row_name = cell_value
+- Discuss Lettau’s framework using various mathematical formulae and What legislative suggestions pertaining to workplace sexual harassment does the firm provide in its submission?; require multiple contexts while the system works for 2, for 1 we need better parsing results, especially current model like llm_sherpa give a lot of weightage to spatial features like centering and mis-classify paras as headers
+
+
     
