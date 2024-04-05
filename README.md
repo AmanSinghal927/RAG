@@ -24,7 +24,7 @@
 
 12. Try other embedders like splade ~~& dragon~~
 
-13. No match threshold
+13. ~~No match threshold~~
     
 15. Multi-answer query evaluation: Maybe MRR would take care of this as well
     
