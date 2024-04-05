@@ -7,6 +7,7 @@
   - error analysis: 3 no answers, 1 segmentation error, 1 multiple answers
 5. Chunking + TF-IDF + Thresholding for no-answer 78.57% @ k=15
   - threshold for no answer: [1.5917805, 1.6717079, 1.2556686] median value in tf-idf 1.5917805
+6. Including table queries and data from raw_text - 73.9% recall@10 
 
 # TODO
 
