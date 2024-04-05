@@ -18,7 +18,7 @@
 
 2. Try other Indexes to check latency when done with everything else 
 
-3. Use DR--185549702_INTRO as val
+~~3. Use DR--185549702_INTRO as val~~
    
 ~~5. Better chunking for paras with words like following/below in the last sentence~~
    
