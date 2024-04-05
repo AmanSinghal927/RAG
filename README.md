@@ -8,7 +8,7 @@
 5. Chunking + TF-IDF + Thresholding for no-answer 78.57% @ k=15
   - threshold for no answer: [1.5917805, 1.6717079, 1.2556686] median value in tf-idf 1.5917805
 6. Including table queries and data from raw_text - 73.9% recall@10
-- MRR is 0.41 (MRR criteria, partial fuzzy matches allowed only when len(pred)>=0.95*len(ground_truth)
+- MRR is 0.46 (MRR criteria, partial fuzzy matches allowed only when len(pred)>=0.95*len(ground_truth)
 
 # TODO
 
