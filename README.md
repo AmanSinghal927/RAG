@@ -18,17 +18,17 @@
    
 ~~5. Better chunking for paras with words like following/below in the last sentence~~
    
-7. ~~Tabular format -> One table and its header is one chunk? Or should be do this row-wise?~~
+~~7. Tabular format -> One table and its header is one chunk? Or should be do this row-wise?~~
    
-9. ~~OOP code organization~~
+~~9. OOP code organization~~
     
 11. Documentation
 
 12. Try other embedders like splade ~~& dragon~~
 
-13. ~~No match threshold~~
+~~13. No match threshold~~
     
-15. Multi-answer query evaluation: Maybe MRR would take care of this as well
+~~15. Multi-answer query evaluation: Maybe MRR would take care of this as well~~
 
 # Improvements
 - Logical table storing e.g. table_name.col_name.row_name = cell_value
