@@ -2,9 +2,14 @@ import faiss
 import torch
 
 class FlatIdx:
-    def __init__(self, d):
+    def __init__(self, d, type = "L2"):
         self.d = d
-        self.index = faiss.IndexFlatL2(d)
+        self.type = type
+        if type == "L2":
+            self.index = faiss.IndexFlatL2(d)
+        elif type == "Cosine":
+            self.index = faiss.IndexFlatIP(d)
+
     
     def add_idx(self, sentence_embeddings):
         self.index.add(sentence_embeddings)
